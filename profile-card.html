@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/163942ca31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-[#f1f3c5] flex flex-col items-center justify-center min-h-screen">
+        <div class="bg-white rounded-3xl overflow-hidden w-1/3">
+        <!-- card top -->        
+            <div class="relative flex items-center justify-center h-72 ">
+                <div class="absolute z-0 w-full bottom-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cf4e8a" fill-opacity="1" d="M0,128L48,122.7C96,117,192,107,288,117.3C384,128,480,160,576,186.7C672,213,768,235,864,250.7C960,267,1056,277,1152,245.3C1248,213,1344,139,1392,101.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+                </div>
+                <div class="absolute z-10 w-full bottom-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#9c485f" fill-opacity="1" d="M0,64L40,58.7C80,53,160,43,240,69.3C320,96,400,160,480,186.7C560,213,640,203,720,170.7C800,139,880,85,960,85.3C1040,85,1120,139,1200,138.7C1280,139,1360,85,1400,58.7L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+                </div>
+                <div class="absolute z-20 w-full bottom-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8d3a50" fill-opacity="1" d="M0,96L34.3,117.3C68.6,139,137,181,206,202.7C274.3,224,343,224,411,218.7C480,213,549,203,617,170.7C685.7,139,754,85,823,85.3C891.4,85,960,139,1029,181.3C1097.1,224,1166,256,1234,250.7C1302.9,245,1371,203,1406,181.3L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+                </div>
+                <div class="absolute z-10 w-full -top-3 h-2/3 bg-[#8d3a50]">
+
+                </div>
+
+                <div class="w-36 h-36 rounded-full overflow-hidden border absolute z-50 top-6">
+                    <img src="https://picsum.photos/200/300" alt="profile picture" class="w-full h-full" />
+                </div>
+
+            </div>
+        <!-- card mid -->
+            <div class="text-center p-9">
+                <h1 class="text-4xl leading-none">
+                    Johnny Rogers<br>
+                </h1>
+                <span class="text-xs text-gray-600">@johnnyrogers</span>
+                <div class="mt-9 text-3xl flex flex-row items-center justify-center gap-6">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-dribbble"></i>
+                    </a>
+                </div>
+                <p class="mt-9 text-center text-lg">
+                    Crafting brand and communication strategies, creating visual design, leading art direction, and capturing portraits through  photography
+                </p>
+            </div>
+        <!-- card bottom -->
+            <div class="flex space-x-4 flex-row items-center justify-between p-10">
+                <button class="flex-1 text-slate-600 border hover:bg-[#cf4e8a] hover:text-white font-bold py-4 rounded-full">
+                    Follow
+                </button>
+                <button class="flex-1 text-slate-600 border hover:bg-[#cf4e8a] hover:text-white font-bold py-4 rounded-full">
+                    Message        
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
